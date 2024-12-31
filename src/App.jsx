@@ -10,13 +10,7 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 import { signInWithPopup } from 'firebase/auth';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBn20XE7YMNYFi3jwSQXB6e-Luc43hhitg",
-  authDomain: "superchat-3a108.firebaseapp.com",
-  projectId: "superchat-3a108",
-  storageBucket: "superchat-3a108.firebasestorage.app",
-  messagingSenderId: "179323458960",
-  appId: "1:179323458960:web:00330c7afb94dcc600cf15",
-  measurementId: "G-L9Q0867T14"
+  //your configurations
 })
 
 if (!firebase.apps.length) {
